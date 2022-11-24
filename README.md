@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Ufuk Argun
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Zwart
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://mario.nintendo.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepage  
+  <img src="readme-images/eerste-pagina.png" width="375px" alt="Homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  History of Mario  
+  <img src="readme-images/tweede-pagina.png" width="375px" alt="History of Mario">
  
 </details>
 
@@ -112,16 +112,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het inschatten welke manieren ik moest gebruiken om dezelfde resultaat te behalen was goed, zo is mario op de hero, 3 plaatjes die achter elkaar zijn gestackt, ik heb dit kunnen namaken door position:absolute; te gebruiken.
+  <img src="readme-images/SVZ-goed.png" width="844px" alt="Foto van dat de characters achter elkaar staan">
+
+  Wat minder goed ging zijn die separation dividers, ze waren moeilijk om goed te plaatsen en geven mij nog vraagtekens voor hoe ik ze responsive zou moeten maken. Ik had problemen om de "Mario in the news" kop voor de divider te krijgen, na een tijdje zoeken op google kwam ik er achter dat ik nooit een position had gegeven en daardoor de z-index het maar niet bleef doen
+  <img src="readme-images/SVZ-fout.png" width="844px" alt="Foto van dat de divider design met ducttape code is neergezet">
+
+  Wat ook minder goed ging was de Title selector die de originele site functionerend heeft gekregen, ik had hier veel tijd aan besteed totdat ik mij besefte dat een ul li gebruikt moest worden.
+  Ik had een beginnetje daar aan gemaakt maar heb het tijdelijk als comment staan zodat het voor dit gesprek er nog goed uit ziet.
+  <img src="readme-images/SVZ-fout2.png" width="871px" alt="Foto van dat de title selector nog niet werkt maar wel de juiste richting op gaat">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | student 2          | student 3          | 
+  | Rouicha        | Beau               | Ufuk               |
+  | dit bespreken  | en dit             | Feedback vragen    | 
+  | en dat ook nog | dit als er tijd is | Bespreken wat de   | 
+  | ...            | ...                | juiste keuzes zijn |               
 
 
   ### Verslag van meeting
@@ -273,8 +282,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://wweb.dev/resources/css-separator-generator/ voor het maken van de separators tussen sections
+  2. Flexbox oefening som 13 voor het maken van de cards die van het beeld afgaan in section 2
+  3. https://mario.nintendo.com/ voor het gebruiken van de images en kleurcodes kopieren
 
 </details>
