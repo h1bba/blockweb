@@ -1,0 +1,314 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #eee;
+
+	/* kleuren die gebruikt gaan worden*/
+	--background-color-header: #e60012;
+	--wit: #fff;
+	--background-color-slider: rgba(0, 0, 0, .5);
+	--news-list-color: #2A2929;
+	--gradient-purple-blue: linear-gradient(0deg, #bc00b7, #23b2ff);
+	--striped-pattern: repeating-linear-gradient(-45deg, #302f2f, #302f2f 6px, #2a2929 0, #2a2929 12px);
+	--gradient-lime: linear-gradient(223deg, #00abbc, #3fe049);
+	--yellow-button: #ffdf02;
+	--dark-red: #ce0010;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+ul {
+	list-style: none;
+	padding: 0%;
+}
+
+body {
+	width: 100%;
+	margin: 0em;
+	padding-bottom: 20px;
+	background-color: var(--background-color-header);
+}
+
+a {
+	text-decoration: none;
+}
+
+h2, h1, span, p, a {
+	font-family: 'Poppins', sans-serif;
+    color: var(--wit);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+header {
+	background-color: var(--background-color-header);
+	padding-top: .05em;
+	padding-bottom: .05em;
+
+}
+
+header ul:nth-child(1) {
+	display: flex;
+	justify-content: space-around;
+	padding: 0%;
+}
+
+header ul:nth-child(1) li {
+	display: inline-block;
+}
+
+header ul:nth-child(1) li:nth-child(1) img {
+	width: 6em;
+	height: 1.5em;
+	vertical-align: middle;
+
+}
+
+header ul:nth-child(1) li:nth-child(2) {
+	justify-content: center;
+	text-align: center;
+
+}
+
+header ul:nth-child(1) li:nth-child(2) img {
+	display: flex;
+	height: 1.5em;
+}
+
+header ul:nth-child(1) li a {
+	color: var(--wit);
+	display: flex;
+	position: relative;
+	
+}
+
+header ul:nth-child(1) li h3 {
+	display: flex;
+	vertical-align: bottom;
+	font-size: 0.875em;
+	margin-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+header nav {
+	position:fixed;
+	z-index: 10;
+	top: 5em;
+	width: 100%;
+	height: 100%;
+}
+
+
+.navmenu.hide {
+	position: absolute;
+	transform: translateY(-110%);
+}
+
+header nav a {
+	color: var(--wit);
+	padding: .5em .8em .5em .8em;
+	background-color: var(--news-list-color);
+	border-radius: 0.3em;
+	border: 0.15em solid var(--wit);
+}
+
+header nav ul {
+	position: absolute;
+	display: block;
+	width: 100%;
+	background-image: var(--striped-pattern);
+	text-align: center;
+	padding-bottom: 5em;
+	margin-top: -6.8em;
+	padding-top: 6.8em;
+	z-index: -1;
+
+	transform: translateX(-100%);
+}
+
+
+header nav ul li {
+	
+	text-align: center;
+	margin-top: 3em;
+}
+
+header nav ul img{
+	position: sticky;
+	margin-top: 6.3em;
+	text-align: center;
+
+}
+
+.toonMenu {
+	transform: translateX(0%);
+}
+
+
+main section:nth-child(1) {
+    position: relative;
+	background-color: var(--background-color-header);
+    text-align: center;
+	display: block;
+	width: auto;
+    padding: 0 1.5em 0 1.5em;
+    margin-top: 4em;
+    z-index: 3;
+}
+
+main section:nth-child(1) img {
+	position: relative;
+    width: 20.3em;
+    border-radius: 1em;
+    border: 0.15em solid var(--wit);
+}
+
+main div:first-of-type {
+	position: absolute;
+    padding: 0%;
+	margin: 0%;
+	width: 100%;
+	height: 30%;
+	top: 57%;
+	background: var(--background-color-header);
+
+	z-index: 1;
+
+	/* hulp gehad van https://wweb.dev/resources/css-separator-generator/ */
+	transform: skewY(4deg);
+	transform-origin: top left;
+}
+
+
+
+/* The history of Super Mario" */
+
+main section:nth-of-type(2) {
+    background-image: var(--striped-pattern);
+    text-align: center;
+    padding: 5em 1.5em 0em 1.5em;
+    padding-bottom: 10em;
+
+}
+
+main section:nth-of-type(2) h2 {
+	position: relative;
+	color: var(--wit);
+	font-weight: 800;
+	font-size: 2em;
+	margin: 0%;
+
+	z-index: 2;
+}
+
+main section:nth-of-type(2) p {
+	margin-bottom: 2em;
+}
+
+main section:nth-of-type(2) a {
+	position: relative;
+	font-weight: 600;
+	font-size: 1em;
+	margin-top: 1em;
+	z-index: 2;
+}
+
+main section:nth-of-type(2) a:first-of-type {
+	background-color: var(--background-color-header);
+    padding: 1em 1em 1em 1em;
+    border-radius: 1.5em 0em 0em 1.5em;
+}
+
+main section:nth-of-type(2) a:nth-of-type(2) {
+	background-color: var(--wit);
+    color: var(--color-text);
+    padding: 1em 1em 1em 1em;
+    border-radius: 0em 1.5em 1.5em 0em;
+}
+
+
+
+
+
+
+
+footer {
+	position: relative;
+	display: block;
+	background-color: var(--background-color-header);
+	padding: 0%;
+	margin: 0%;
+	height: 100%;
+	z-index: 1;
+	text-align: center;
+}
+
+footer div {
+	position: absolute;
+	margin-top: -2em;
+	width: 100%;
+	height: 50%;
+	background: var(--background-color-header);
+
+	z-index: -1;
+
+	/* hulp gehad van https://wweb.dev/resources/css-separator-generator/ */
+	transform: skewY(-7deg);
+	transform-origin: top left;
+}
+
+footer a {
+	position: relative;
+	color: var(--wit);
+	font-weight: 600;
+	font-size: 1em;
+	background-color: var(--dark-red);
+	padding: .75em 1.5em .75em 1.5em;
+	border-radius: .4em;
+	border: 0.15em dashed var(--wit);
+	margin-bottom: 3em;
+}
+
+footer article {
+	margin-top: 3em;
+	color: var(--wit);
+}
+
+footer article img{
+	gap: 1em;
+	border: 0.1em solid var(--wit);
+	margin: 0 .3em 0 .3em;
+}
+
+footer article p{
+	margin-top: 2em;
+}
