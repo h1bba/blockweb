@@ -106,7 +106,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   U kunt de foto zelf vinden in de readme-images voor als u gedetailleerd het wilt bekijken.
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdown menu.png" width="375px" alt="breakdown van de nav menu">
+  <img src="readme-images/menubreakdown.png" width="375px" alt="breakdown van de nav menu">
   U kunt de foto zelf vinden in de readme-images voor als u gedetailleerd het wilt bekijken.
 </details>
 
